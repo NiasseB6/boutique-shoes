@@ -1,0 +1,404 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NiasseShop</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss"></style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/26475058_122.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header
+      class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md"
+    >
+      <div class="flex-1 flex justify-between items-center">
+        <a href="#" class="text-xl">
+          <img
+            src="assets/icon.jpg"
+            alt=""
+            srcset=""
+            width="50px"
+            height="90px"
+            class="logotete"
+          />
+        </a>
+      </div>
+
+      <label for="menu-toggle" class="pointer-cursor md:hidden block">
+        <svg
+          class="fill-current text-gray-900"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+        >
+          <title>menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </label>
+      <input class="hidden" type="checkbox" id="menu-toggle" />
+
+      <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+        <nav>
+          <ul
+            class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0"
+          >
+            <li>
+              <a class="md:p-4 py-3 px-0 block niasse" href="produits.html" >Produits</a>
+            </li>
+            <li>
+              <a class="md:p-4 py-3 px-0 block niasse" href="#">A propos</a>
+            </li>
+            <li><a class="md:p-4 py-3 px-0 block niasse" href="#">Home</a></li>
+            <li>
+              <a class="md:p-4 py-3 px-0 block md:mb-0 mb-2 niasse" href="#contacts"
+                >Contactez-nous</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar fin -->
+
+    <!-- Heros debut -->
+    <section class="w-full bg-[#0A2025] py-9 px-8">
+      <div
+        class="mx-auto flex flex-col items-center lg:flex-row justify-center gap-10 py-40 max-w-[1440px] bg-no-repeat"
+      >
+        <div
+          class="w-[660px] flex-col justify-center items-start gap-20 inline-flex"
+        >
+          <div
+            class="self-stretch flex-col justify-start items-start gap-5 flex"
+          >
+            <h1 class="self-stretch">
+              <span class="text-white text-5xl font-bold font-['Roboto']"
+                >Le Monde des Sneakers:</span
+              ><span class="text-[#3e9d26] text-5xl font-bold font-['Roboto']"
+                >Le Future des Sneakers c'est <br> ici.</span
+              >
+            </h1>
+            <p
+              class="self-stretch text-white text-xl font-normal font-['Roboto']"
+            >
+            Découvrez un confort inégalé et un design innovant avec nos Sneakers futuristes et à la pointe de la technologie. Conçues pour les champions, conçues pour vous.
+            </p>
+          </div>
+          <div class="justify-start items-center gap-5 inline-flex">
+            <div class="justify-start items-center gap-2.5 flex">
+              <p class="text-white text-sm font-normal font-['Roboto']">
+                C'est parti pour le Future
+              </p>
+              <div data-svg-wrapper="true" class="relative">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.7806 12.5306L14.0306 19.2806C13.8899 19.4213 13.699 19.5004 13.5 19.5004C13.301 19.5004 13.1101 19.4213 12.9694 19.2806C12.8286 19.1399 12.7496 18.949 12.7496 18.75C12.7496 18.551 12.8286 18.3601 12.9694 18.2194L18.4397 12.75H3.75C3.55109 12.75 3.36032 12.671 3.21967 12.5303C3.07902 12.3897 3 12.1989 3 12C3 11.8011 3.07902 11.6103 3.21967 11.4697C3.36032 11.329 3.55109 11.25 3.75 11.25H18.4397L12.9694 5.78061C12.8286 5.63988 12.7496 5.44901 12.7496 5.24999C12.7496 5.05097 12.8286 4.8601 12.9694 4.71936C13.1101 4.57863 13.301 4.49957 13.5 4.49957C13.699 4.49957 13.8899 4.57863 14.0306 4.71936L20.7806 11.4694C20.8504 11.539 20.9057 11.6217 20.9434 11.7128C20.9812 11.8038 21.0006 11.9014 21.0006 12C21.0006 12.0986 20.9812 12.1961 20.9434 12.2872C20.9057 12.3782 20.8504 12.461 20.7806 12.5306Z"
+                    fill="white"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <button
+            class="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text text-white bg-[#3e9d26] hover:bg-green-500/70 hover:text-white"
+          >
+            <span
+              before="Acheter Maintenant"
+              class="relative py-1.5 transition-transform inline-block before:content-[attr(before)] before:py-1.5 before:absolute before:top-full group-hover:-translate-y-full "
+              >Acheter Maintenant</span
+            >
+          </button>
+          
+          </div>
+        </div>
+        <img class="w-full max-w-[400px]" src="https://iili.io/338c9je.png" alt=""" alt="" />
+      </div>
+    </section>
+    <!-- Heros fin -->
+
+    <!-- Article Debut -->
+    <div class="mx-auto max-w-7xl bg-white p-5" id="produits">
+      <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <article
+          class="overflow-hidden rounded-2xl border border-gray-200 transition-all duration-300 hover:scale-[102%]"
+        >
+          <a href=""  class="block couleur">
+            <img
+              src="assets/shoes1.jpg"
+              class="h-auto w-full object-cover"
+              alt="Placeholder Image"
+            />
+            <div class="p-5">
+              <h2 class="text-2xl">Air Force-one</h2>
+              <p class="line-clamp-3">
+                La Nike Air Force One a un design assez sobre. Une tige en cuir, parcourue par un grand « Swoosh », surmonte une épaisse semelle. 
+              </p>
+              <div class="button">
+                <button
+                  class="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text text-white bg-[#3e9d26] hover:bg-green-500/70 hover:text-white"
+                >
+                  <span
+                    before="Acheter Maintenant"
+                    class="relative py-1.5 transition-transform inline-block before:content-[attr(before)] before:py-1.5 before:absolute before:top-full group-hover:-translate-y-full"
+                    >Acheter Maintenant</span
+                  >
+                </button>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article
+          class="overflow-hidden rounded-2xl border border-gray-200 transition-all duration-300 hover:scale-[102%]"
+        >
+          <a href="#" class="block couleur">
+            <img
+              src="assets/shoes.jpg"
+              class="h-auto w-full object-cover"
+              alt="Placeholder Image"
+            />
+            <div class="p-5">
+              <h2 class="text-2xl">Air Jordan 1</h2>
+              <p class="line-clamp-3">
+                Le modèle Air Jordan 1 reste le modèle incontesté de chez Jordan pour les hommes. Malgré les années, la paire reste très confortable.
+              </p>
+              <div class="button">
+                <button
+                  class="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text text-white bg-[#3e9d26] hover:bg-green-500/70 hover:text-white"
+                >
+                  <span
+                    before="Acheter Maintenant"
+                    class="relative py-1.5 transition-transform inline-block before:content-[attr(before)] before:py-1.5 before:absolute before:top-full group-hover:-translate-y-full"
+                    >Acheter Maintenant</span
+                  >
+                </button>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article
+        class="overflow-hidden rounded-2xl border border-gray-200 transition-all duration-300 hover:scale-[102%]"
+      >
+        <a href="#" class="block couleur">
+          <img
+            src="assets/shoes3.jpg"
+            class="h-auto w-full object-cover"
+            alt="Placeholder Image"
+            height="100px"
+          />
+          <div class="p-5">
+            <h2 class="text-2xl">Air Jordan 4</h2>
+            <p class="line-clamp-3">
+              Sortie en 1989, la Air Jordan 4 était la première de la franchise à partir à la conquête de la scène mondiale. La retro-4 c'est la meilleure.
+            </p>
+            <div class="button">
+              <button
+                class="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text text-white bg-[#3e9d26] hover:bg-green-500/70 hover:text-white"
+              >
+                <span
+                  before="Acheter Maintenant"
+                  class="relative py-1.5 transition-transform inline-block before:content-[attr(before)] before:py-1.5 before:absolute before:top-full group-hover:-translate-y-full"
+                  >Acheter Maintenant</span
+                >
+              </button>
+            </div>
+          </div>
+        </a>
+      </article>
+
+        <article
+          class="overflow-hidden rounded-2xl border border-gray-200 transition-all duration-300 hover:scale-[102%]"
+        >
+          <a href="#" class="block couleur">
+            <img
+              src="assets/shoes2.jpg"
+              class="h-auto w-full object-cover"
+              alt="Placeholder Image"
+            />
+            <div class="p-5">
+              <h2 class="text-2xl">Chuck Taylor All Star </h2>
+              <p class="line-clamp-3">
+                Lorsque vous portez des produits Converse, vous donnez naissance à une culture authentiquement urbaine en restant tout simplement fidèle à vous.
+              </p>
+              <div class="button">
+                <button
+                  class="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text text-white bg-[#3e9d26] hover:bg-green-500/70 hover:text-white"
+                >
+                  <span
+                    before="Acheter Maintenant"
+                    class="relative py-1.5 transition-transform inline-block before:content-[attr(before)] before:py-1.5 before:absolute before:top-full group-hover:-translate-y-full"
+                    >Acheter Maintenant</span
+                  >
+                </button>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article
+          class="overflow-hidden rounded-2xl border border-gray-200 transition-all duration-300 hover:scale-[102%]"
+        >
+          <a href="#" class="block couleur">
+            <img
+              src="assets/shoes5.jpg"
+              class="h-auto w-full object-cover"
+              alt="Placeholder Image"
+            />
+            <div class="p-5">
+              <h2 class="text-2xl">Yezzy </h2>
+              <p class="line-clamp-3">
+                Les Yeezy, conçues par Kanye West, sont bien plus qu'une simple collection de sneakers. Ces chaussures sont rapidement devenues virales.
+              </p>
+              <div class="button">
+                <button
+                  class="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text text-white bg-[#3e9d26] hover:bg-green-500/70 hover:text-white"
+                >
+                  <span
+                    before="Acheter Maintenant"
+                    class="relative py-1.5 transition-transform inline-block before:content-[attr(before)] before:py-1.5 before:absolute before:top-full group-hover:-translate-y-full"
+                    >Acheter Maintenant</span
+                  >
+                </button>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article
+          class="overflow-hidden rounded-2xl border border-gray-200 transition-all duration-300 hover:scale-[102%]"
+        >
+          <a href="#" class="block couleur">
+            <img
+              src="assets/shoes4.jpg"
+              class="h-auto w-full object-cover"
+              alt="Placeholder Image"
+            />
+            <div class="p-5">
+              <h2 class="text-2xl">Nike Air Max</h2>
+              <p class="line-clamp-3">
+                Ces nouveautés, et particulièrement la Air Max, marquent l'entrée de Nike dans une nouvelle ère. Porter Air Max pour le confort de vos pieds.
+              </p>
+              <div class="button">
+                <button
+                  class="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text text-white bg-[#3e9d26] hover:bg-green-500/70 hover:text-white"
+                >
+                  <span
+                    before="Acheter Maintenant"
+                    class="relative py-1.5 transition-transform inline-block before:content-[attr(before)] before:py-1.5 before:absolute before:top-full group-hover:-translate-y-full"
+                    >Acheter Maintenant</span
+                  >
+                </button>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+    <!-- Article fin -->
+
+    <!-- formulaire de contact -->
+    <section class="text-white body-font bg-[#0A2025]" id="contacts">
+      <div class="container flex flex-col md:flex-row lg:max-w-5xl w-full px-5 py-12 md:py-24 mx-auto section text-white"
+          id="#contacts" >
+          <form action="https://fabform.io/f/{form-id}" method="post ">
+          <div class="md:w-1/3 w-full last-div">
+              <h1 class="text-4xl text-white sm:text-4xl font-bold title-font mb-4">Contactez-nous</h1>
+              <p class="leading-relaxed text-xl text-white">
+                 Nous sommes là pour repondre à vos questions n'hesiter pas de nous écrire.
+                  <br><br>
+              </p>
+              <p class="leading-relaxed text-xl text-white mt-8">
+                   Social Media:
+              </p>
+              <span class="inline-flex mt-6 justify-center sm:justify-start">
+                  <a class="text-gray-500 hover:text-white" target="_blank" href="https://x.com/barraniasse6?s=21">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          class="w-6 h-6" viewBox="0 0 24 24">
+                          <path
+                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                      </svg>
+                  </a>
+                  <a class="ml-3 text-gray-500 hover:text-white" href="https://www.instagram.com/barra_niasse?igsh=MWMwams4MWJheWFicw%3D%3D&utm_source=qr"
+                      target="_blank">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                      </svg>
+                  </a>
+              </span>
+          </div>
+          <div class="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28" id="contact">
+              <h1 class="text-4xl text-white sm:text-4xl font-bold title-font mb-4 text-white">Nous contacter </h1>
+              <form action="send-contact.php" method="post" id="submit-contact-form">
+                  <div class="p-2 w-full">
+                      <div class="relative">
+                          <label for="name" class="leading-7 py-4 text-lg text-white">Votre nom</label>
+                          <input type="text" id="name" name="name" required=""
+                              class="w-full bg-white rounded border border-gray-400 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out ">
+                      </div>
+                  </div>
+                  <div class="p-2 w-full">
+                      <div class="relative">
+                          <label for="email" class="leading-7 py-4 text-lg text-white">Votre Email</label>
+                          <input type="email" id="email" name="email" required=""
+                              class="w-full bg-white rounded border border-gray-400 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out ">
+                      </div>
+                  </div>
+                  <div class="p-2 w-full">
+                      <div class="relative">
+                          <label for="message" class="leading-7 py-4 text-lg text-white">Votre Message</label>
+                          <textarea id="message" name="message" required=""
+                              class="w-full bg-white rounded border border-white-400 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out "></textarea>
+                      </div>
+                  </div>
+                  <div class="p-2 w-full">
+                      <button type="submit"
+                          class="flex text-white bg-[#3e9d26]  border-0 py-4 px-6 focus:outline-none hover:bg-green-500/70 hover:text-white rounded text-xl font-bold shadow-lg mx-0 flex-col text-center g-recaptcha">
+                          Envoyez
+                      </button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </section>
+    
+    <!-- formulaire de contact -->
+
+    <!-- footer -->
+    <footer class="mt-20 xl:mt-32 mx-auto w-full relative text-center bg-blue-600 text-white">
+      <div class=" footer px-6 py-8 md:py-14 xl:pt-20 xl:pb-12">
+          <h2 class="font-bold text-3xl xl:text-4xl leading-snug">
+              Prêt pour commencer l'aventure ?<br>C'est parti.
+          </h2>
+          <a class="mt-8 xl:mt-12 px-12 py-5 text-lg font-medium leading-tight inline-block bg-[#3e9d26] rounded-full shadow-xl border border-transparent hover:bg-green-500/70 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-sky-999 focus:ring-sky-500"
+              href="#"> Acheter Maintenant</a>
+          <div class="mt-14 xl:mt-20 footer">
+              <nav class="flex flex-wrap justify-center text-lg font-medium">
+                  <div class="px-5 py-2"><a href="#contacts" id="#contacts">Contact</a></div>
+                  <div class="px-5 py-2"><a href="#">Confidentialité</a></div>
+                  <div class="px-5 py-2"><a href="#">Terms & conditions</a></div>
+                  <div class="px-5 py-2"><a href="#" id="home">To the Head </a></div>
+              </nav>
+              <p class="mt-7 text-base">© 2025 copiright, with❤️ by NiasseWebDev</p>
+          </div>
+      </div>
+  </footer>
+    <!-- footer -->
+  </body>
+</HTML>

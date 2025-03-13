@@ -1,0 +1,50 @@
+*{
+  font-family: "roboto";
+}
+header{
+  /* margin-bottom: 20px; */
+  background-color: #BC6C24;
+}
+.niasse{
+  font-size: 20px;
+  color: azure;
+}
+.text-xl{
+  padding: 7px;
+  border-radius: 20px;
+}
+.niasse:hover{
+  background-color: #3e9d26;
+  border-radius: 20px;
+  text-decoration: underline;
+  color: whitesmoke;
+  font-weight: bold;
+  box-shadow: 20px, outset;
+}
+.couleur{
+  background-color: #0A2025;
+}
+.logotete{
+  border-radius: 100px;
+}
+.button{
+margin: 10px;
+}
+article{
+  color: white;
+}
+button{
+  cursor: pointer;
+}
+footer{
+  background-color:#BC6C24;
+}
+.last-section{
+  background-color: #0A2025;
+}
+.section{
+  color: white;
+}
+#remesure{
+  height: 990px;
+}
