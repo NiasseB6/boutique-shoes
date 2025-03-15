@@ -1,19 +1,19 @@
-*{
+* {
   font-family: "roboto";
 }
-header{
+header {
   /* margin-bottom: 20px; */
-  background-color: #BC6C24;
+  background-color: #bc6c24;
 }
-.niasse{
+.niasse {
   font-size: 20px;
   color: azure;
 }
-.text-xl{
+.text-xl {
   padding: 7px;
   border-radius: 20px;
 }
-.niasse:hover{
+.niasse:hover {
   background-color: #3e9d26;
   border-radius: 20px;
   text-decoration: underline;
@@ -21,30 +21,30 @@ header{
   font-weight: bold;
   box-shadow: 20px, outset;
 }
-.couleur{
-  background-color: #0A2025;
+.couleur {
+  background-color: #0a2025;
 }
-.logotete{
+.logotete {
   border-radius: 100px;
 }
-.button{
-margin: 10px;
+.button {
+  margin: 10px;
 }
-article{
+article {
   color: white;
 }
-button{
+button {
   cursor: pointer;
 }
-footer{
-  background-color:#BC6C24;
+footer {
+  background-color: #bc6c24;
 }
-.last-section{
-  background-color: #0A2025;
+.last-section {
+  background-color: #0a2025;
 }
-.section{
+.section {
   color: white;
 }
-#remesure{
+#remesure {
   height: 990px;
 }
